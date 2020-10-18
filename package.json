@@ -14,5 +14,14 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaslenning/Burger-Bonanza.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikolaslenning/Burger-Bonanza/issues"
+  },
+  "homepage": "https://github.com/nikolaslenning/Burger-Bonanza#readme"
 }

@@ -1,0 +1,21 @@
+<h1>Burgers!</h1>
+
+<h2>Eat this Burger!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#unless devoured}}
+      <li>{{burger_name}}</li>
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>Officially Consumed!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+      {{burgers_name}}
+    {{/if}}
+  {{/each}}
+</ul>
