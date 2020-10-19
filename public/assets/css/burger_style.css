@@ -1,5 +1,35 @@
+.body {
+    background-color: orangered;
+}
+
+.btn1 {
+    border: 1px solid black !important;
+    
+    
+    
+    
+}
+
 .h1 {
     text-align: center;
     width: 100%;
     height: auto;
+    font-family: "Corben";
+    font-weight: 700;
+    font-size: 5vw;
+    color: yellow;
+    text-shadow: #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px;
+}
+
+.h2 {
+    text-align: center;
+    font-family: "Corben";
+    font-size: 2vw;
+    color: yellow;
+    text-shadow: #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px;
+}
+
+* {
+    font-family: "Corben";
+    text-align: center;
 }
