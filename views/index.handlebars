@@ -1,15 +1,23 @@
-<h1>Burgers!</h1>
+<div class="container">
+  <div class="row">
+    <h1 class="h1 col-sm">Burger</h1>
+    <img src="../public/assets/img/Hamburger_Monster.png" alt="Hamburger monster from Adventure Time" class="center col-sm"></img>
+    <h1 class="h1 col-sm">Bonanza!</h1>
 
-<h2>Eat this Burger!</h2>
+  </div>
+</div>
+
+
+<h2 class="text-primary">Eat this Burger!</h2>
 
 <ul>
   {{#each burgers}}
-    {{#unless devoured}}
-      <li>
-          {{burger_name}}
-          <button class="eat-burger" data-id="{{id}}" data-burger="{{devoured}}">Devour!</button>
-      </li>
-    {{/unless}}
+  {{#unless devoured}}
+  <li>
+    {{burger_name}}
+    <button class="eat-burger" data-id="{{id}}" data-burger="{{devoured}}">Devour!</button>
+  </li>
+  {{/unless}}
   {{/each}}
 </ul>
 
@@ -17,11 +25,11 @@
 
 <ul>
   {{#each burgers}}
-    {{#if devoured}}
-      <li>
-        {{burger_name}}        
-      </li>
-    {{/if}}
+  {{#if devoured}}
+  <li>
+    {{burger_name}}
+  </li>
+  {{/if}}
   {{/each}}
 </ul>
 
@@ -33,5 +41,5 @@
     <input type="text" id="new-burger" name="name">
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button type="submit">Add a burger and click submit!</button>
 </form>
