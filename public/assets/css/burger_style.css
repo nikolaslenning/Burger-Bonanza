@@ -1,13 +1,14 @@
+* {
+    font-family: "Corben";
+    text-align: center;
+}
+
 .body {
     background-color: orangered;
 }
 
 .btn1 {
     border: 1px solid black !important;
-    
-    
-    
-    
 }
 
 .h1 {
@@ -29,7 +30,6 @@
     text-shadow: #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px, #000 0px 0px 3px;
 }
 
-* {
-    font-family: "Corben";
-    text-align: center;
+.img {
+    padding-top: 10px;
 }
